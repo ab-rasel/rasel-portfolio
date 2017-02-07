@@ -1,0 +1,1202 @@
+/*
+--------------------------Start  menu-----------------------------
+*/
+.fixedHeader{
+    left: 0;
+    top: 0;
+    background: #F8F8F8;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 999;
+}
+.Typeing{
+    color: #E085C9;
+}
+.typed-cursor {
+    color: #E085C9;
+}
+.HomeSec{
+    background: url(../images/hero.jpg) no-repeat center center /cover;
+    width: 100%;
+    height: auto;
+    padding: 300px 0;
+}
+
+
+.homeContent h1{
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.headerMenu {
+    background: transparent none repeat scroll 0 0;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.headerlogo {
+    margin-top: 17px;
+}
+.headerlogo a{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #d164d2;
+    letter-spacing: 2.6px;
+}
+.headerlogo span {
+    background: #E085C9 none repeat scroll 0 0;
+    color: #fff;
+    padding: 5px 4px 5px 7px;
+}
+.main-menu{
+    position: relative;
+}
+.main-menu ul{
+    padding: 0;
+    margin: 0;
+}
+.main-menu ul li {
+    display: inline-block;
+    list-style: outside none none;
+    padding: 25px 0;
+    position: relative;
+    margin-right: 33px;
+
+
+}
+.main-menu ul li.active a{
+    color: #333;
+}
+.main-menu ul li:before {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 3px;
+    background: #D164D2;
+    content: "";
+    transform: scale(0);
+    transition: .5s;
+
+}
+.main-menu ul li.active:before{
+    transform: scale(1);
+}
+.main-menu ul li:hover:before{
+    transform: scale(1);
+}
+
+.main-menu ul li:last-child{
+    margin-right: 0;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#D164D2;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition:all ease 800ms;
+    -moz-transition: all ease 800ms;
+    -ms-transition: all ease 800ms;
+    -webkit-transition: all ease 800ms;
+    -o-transition: all ease 800ms;
+}
+.main-menu ul li a:hover {
+    color:#5b5b5b;
+}
+
+/*
+--------------------------end  menu-----------------------------
+*/
+/*
+--------------------------start  btn-----------------------------
+*/
+.myBTNSEC{
+    padding: 82px 0;
+}
+.cvBTN a {
+    background: #e085c9 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 19px;
+    padding: 13px 54px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition:all ease 500ms;
+    -o-transition:all ease 500ms;
+    -moz-transition:all ease 500ms;
+    -webkit-transition:all ease 500ms;
+    -ms-transition:all ease 500ms;
+}
+.cvBTN a:hover{
+    background: #333;
+}
+/*
+--------------------------end  btn-----------------------------
+*/
+
+
+
+
+
+
+
+/*
+--------------------------Start  ABOUT ME-----------------------------
+*/
+.Myabout{
+    position: relative;
+    padding: 100px 0;
+    background: url(../images/a.jpg) no-repeat center center /cover;
+    background-attachment: fixed;
+}
+.Myabout:before{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0 ,0 , .5);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.myImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+.myImg img {
+    border-radius: 50%;
+    box-shadow: 0 0 7px 11px #e1e1e1;
+    height: 100%;
+    width: 100%;
+}
+.myInformation h2 {
+    color: #fff;
+    font-family: "Raleway",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 27px;
+    position: relative;
+    text-transform: uppercase;
+}
+.myInformation h2::before {
+    background: #e085c9 none repeat scroll 0 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 33px;
+    width: 100px;
+}
+.myInformation h4 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 7px;
+    margin-top: 23px;
+    text-transform: uppercase;
+}
+.myInformation p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.myInformation a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:all ease 500ms;
+    -o-transition:all ease 500ms;
+    -moz-transition:all ease 500ms;
+    -webkit-transition:all ease 500ms;
+    -ms-transition:all ease 500ms;
+}
+.myInformation a:hover{
+    color: #E085C9;
+}
+.myContent h2 {
+    color: #fff;
+    font-family: "Raleway",sans-serif;
+    font-size: 3.3rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin-bottom: 26px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.myContent h2::before {
+    background: #e085c9 none repeat scroll 0 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 46px;
+    width: 100px;
+}
+.myContent h4 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+.myContent p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 44px;
+    margin-right: 66px;
+}
+
+.panel-default > .panel-heading {
+    background-color: transparent;
+    border-color: #ddd;
+}
+
+.panel-heading .panel-title a {
+    background: #e085c9;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 100%;
+    letter-spacing: 0;
+    padding: 12px 0 14px 29px;
+    position: relative;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.panel-heading {
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 0;
+}
+.panel-heading .panel-title a.collapsed {
+    background: #fff none repeat scroll 0 0;
+    color: #222;
+}
+
+.panel-title a::after {
+    content: "\f062";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
+.panel-title a.collapsed::after {
+    color: #939393;
+    content: "\f063";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
+/*
+-----------------------END  ABOUT ME-----------------------------
+*/
+
+
+/*
+-----------------------start  MY portfolio-----------------------------
+*/
+.MixTabSec {
+    padding: 14px 0 96px;
+    position: relative;
+}
+.portfolioTitle h2{
+    font-size: 28px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase; 
+}
+
+.folioNav{
+    position:relative;
+    margin-bottom: 50px;
+}
+.folioNav ul{
+    padding:0;
+    margin:0;
+
+}
+
+.folioNav ul li{
+    font-size:18px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    height: 42px;
+    padding: 10px 22px;
+    cursor: pointer;
+    background: transparent;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    border: thin solid #e085c9;
+    margin-right: 8px;
+
+}
+.folioNav ul li:hover, .folioNav ul li.active{
+    background: #e085c9;
+    color:#fff;
+}
+.tooltip {
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e085c9;
+    border-radius: 4px;
+}
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #e085c9;
+}
+.mainMixItem{
+    position: relative;
+    margin-bottom: 22px;
+}
+.mainMixItem.mainMixItem1{
+    margin-bottom: 0;
+}
+.MixImg{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.mainMixItem img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transform: scale(1);
+}
+.mainMixItem:hover img{
+    transform: scale(1.1) rotate(2deg);
+    -moz-transform: scale(1.1) rotate(2deg);
+    -ms-transform: scale(1.1) rotate(2deg);
+    -webkit-transform: scale(1.1) rotate(2deg);
+    -o-transform: scale(1.1) rotate(2deg);
+}
+.mainMixItem:hover .imgOverlay{
+    opacity: 1;
+    visibility: visible;
+}
+.imgOverlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    cursor: pointer;
+}
+.imgOverContent{
+    position: absolute;
+    left: 15px;
+    bottom: -50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    cursor: pointer;
+}
+.mainMixItem:hover .imgOverContent{
+    opacity: 1;
+    visibility: visible;
+    bottom: 10px;
+
+}
+.imgOverContent h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    transition:all ease 500ms;
+    -o-transition:all ease 500ms;
+    -moz-transition:all ease 500ms;
+    -webkit-transition:all ease 500ms;
+    -ms-transition:all ease 500ms;
+}
+.imgOverContent h3:hover{
+    color: #e085c9;
+}
+.imgOverContent p{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#Grid .mix{
+    display:none;
+}
+.modalimg{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.modalimg img{
+    width: 100%;
+    height: 100%;
+}
+.modal-header h4{
+    text-transform: uppercase;
+}
+.workingSystem > h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.workingSystem > p {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+.workingSystem > p:last-child{
+    text-transform: capitalize;
+}
+.modal-footer {
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 3px;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.HomeBtn.workBtn > a {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 12px;
+    padding: 9px 30px;
+    text-transform: uppercase;
+    transition:all ease 500ms;
+    -o-transition:all ease 500ms;
+    -moz-transition:all ease 500ms;
+    -webkit-transition:all ease 500ms;
+    -ms-transition:all ease 500ms;
+    border: thin solid #333;
+}
+.HomeBtn.workBtn > a:hover{
+    color: #333;
+    background: #fff;
+
+}
+.HomeBtn.workBtn {
+    margin-top: 8px;
+}
+/*
+-----------------------END  MY portfolio-----------------------------
+*/
+/*
+-----------------------start  MY skills-----------------------------
+*/
+.skillsSec{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url(../images/bg1.jpg) no-repeat center center /cover;
+    padding: 150px 0;
+}
+.skillsSec:before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    background: rgba(0, 0, 0, .7);
+}
+.portfolioTitle.skilltite h2{
+    color: #fff;
+} 
+/*
+-----------------------END  MY skills-----------------------------
+*/
+.skillItem {
+    margin-bottom: 40px;
+}
+.Common.stytle h2 {
+    color: #fff;
+    margin-bottom: 78px;
+    margin-top: 24px;
+}
+.skillItem p {
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 14px;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    transition: all 500ms ease 0s;
+    width: 180px;
+}
+.skillItem p:hover{
+    background: #fff;
+    color: #333;
+}
+.skillsLine {
+    background: #766766 none repeat scroll 0 0;
+    border-radius: 10px;
+    height: 10px;
+    margin-bottom: 3px;
+    position: relative;
+    width: 95%;
+}
+.SkillsBar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+.skillItem span{
+    font-size: 12px;
+    color: #E085C9;
+    font-weight: 400;
+    float: left;
+    margin-right: 27px;
+}
+.skillItem .ppp1 {
+    float: right;
+    width: 16%;
+}
+.skillItem .ppp2{
+    width: 25%;
+    float: right;
+}
+.skillItem .ppp3{
+    width: 30%;
+    float: right;
+}
+.skillItem .ppp4{
+    width: 40%;
+    float: right;
+}
+.skillItem .ppp5{
+    width: 35%;
+    float: right;
+}
+.skillItem .ppp6{
+    width: 30%;
+    float: right;
+}
+/*==========================
+/FunfactSec Section Start here
+=============================*/
+.WorkExpreience{
+    height: 100%;
+    padding-bottom: 84px;
+    position: relative;
+    width: 100%;
+}
+.Xone{
+    padding: 24px 0;
+    width: 100%;
+}
+.WorkSingle{
+    width: 100%;
+    height: 100%;
+}
+.WorkSingle::before {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-radius: 2px;
+    content: "";
+    height: 95%;
+    left: 50%;
+    margin-left: -2px;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+.Icon {
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: 8px;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    z-index: 1;
+}
+.Icon i{
+    color: #E085C9;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+.contentOne{
+    background: #f5f5f5 none repeat scroll 0 0;
+    color: #fff;
+    padding: 26px 26px 26px 23px;
+    width: 44%;
+    position: relative;
+    margin-top: 10px;
+}
+.contentOne:after{
+    border-color: transparent transparent transparent #f5f5f5;
+    border-style: solid;
+    border-width: 15px 0 15px 17px;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -17px;
+    top: 11px;
+    width: 0;
+}
+.ContentTwo:after{
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #f5f5f5 transparent transparent;
+}
+.contentOne h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 800;
+}
+.contentOne h3 {
+    color: #333;
+    font-size: 16px;
+    padding: 7px 0;
+}
+.contentOne h2 span {
+    color: #222;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px;
+}
+.contentOne p {
+    color: #111;
+    font-size: 15px;
+    font-weight: 300;
+}
+/*==========================
+/FunfactSec Section Start here
+=============================*/
+
+/*==========================
+/FunfactSec Section Start here
+=============================*/
+.FunfactSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/bg2.jpg) no-repeat center center / cover;
+    color: #fff;
+    padding: 0 0 92px;
+}
+.factComm h2,.factComm p{
+    color: #fff;
+}
+/*.Common.skillComm.factComm span{
+    background: #fff;
+}*/
+.SingleFact{
+    height: 100%;
+    padding: 40px 0 0;
+    width: 100%;
+}
+.SingleFact i{
+    font-size: 50px;
+}
+.SingleFact h2{
+    font-size: 66px;
+    font-weight: 400;
+    padding: 7px 0 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.SingleFact span{
+    background: #e085c9 none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    width: 70px;
+    margin: 0 auto;
+}
+.SingleFact p{
+    font-size: 20px;
+    padding: 12px 0 0;
+    text-transform: capitalize;
+}
+/*==========================
+/FunfactSec Section End here
+=============================*/
+
+/*==========================
+/WhatCanSec Section Start here
+=============================*/
+.WhatCanSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0 0 97px;
+}
+.SingleWhCan{
+    width: 100%;
+    height: 100%;
+}
+.SingleWhCSix{
+    padding: 51px 0 0;
+}
+.SingleWhCan:hover.SingleWhCan a:after{
+    visibility: visible;
+    opacity: 1;
+}
+.SingleWhCan:hover.SingleWhCan a{
+    background: #e085c9;
+}
+.SingleWhCan:hover.SingleWhCan i{
+    color: #fff;
+}
+.SingleWhCan a{
+    width: 100px;
+    height: 100px;
+    background: #f2f2f2;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    transition: .8s;
+}
+.SingleWhCan a:after{
+    background: transparent none repeat scroll 0 0;
+    border: 5px solid #e085c9;
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    height: 120px;
+    left: -10px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+}
+.SingleWhCan i{
+    color: #e085c9;
+    font-size: 45px;
+    margin-top: 25px;
+    transition: .6s;
+    background: transparent;
+}
+.SingleWhCan h2{
+    font-size: 18px;
+    padding: 20px 0 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.SingleWhCan p{
+    font-size: 17px;
+    font-weight: 300;
+}
+/*==========================
+/WhatCanSec Section End here
+=============================*/
+
+/*==========================
+/SkillSec Section Start here
+=============================*/
+.SkillSec{
+    background: rgba(0, 0, 0, 0) url("../images/bg4.jpg") no-repeat scroll center center / cover ;
+    color: #fff;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 0 97px;
+    position: relative;
+    width: 100%;
+}
+.singleSkill{
+    height: 100%;
+    padding: 40px 0 0;
+    width: 100%;
+}
+.skill{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.percent{
+    bottom: 0;
+    font-family: "Open Sans",sans-serif;
+    font-size: 32px;
+    height: 40px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 61px;
+    width: 150px;
+    color: #E085C9;
+}
+.percent span{
+    color: #f7465b;
+    margin-top: 10px;
+}
+.SkillCon h2{
+    font-size: 30px;
+    padding: 24px 0 11px;
+    text-transform: uppercase;
+}
+.SkillCon p{
+    padding: 0 37px;
+}
+.SingleSkillRight{
+    padding: 92px 0 0;
+}
+/*==========================
+/SkillSec Section End here
+=============================*/
+
+/*==========================
+/ContactSec Section End here
+=============================*/
+.ContactSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    background: url(../images/bg6.jpg) no-repeat center center / cover;
+}
+.SingleConLeft{
+    height: 190px;
+    overflow: hidden;
+    padding: 40px 0 0;
+    width: 100%;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+.SingleConLeft i{
+    background: #e085c9 none repeat scroll 0 0;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 60px;
+    padding: 13px;
+    text-align: center;
+    width: 60px;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 600ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 600ms ease;
+}
+.SingleConLeft h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0 11px;
+    text-transform: uppercase;
+}
+.SingleConLeft p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 30px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition:all 200ms ease;
+    -moz-transition:all 200ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 200ms ease;
+}
+
+.SingleConLeft:hover{
+    background: #e085c9;
+    padding: 10px 0 0;
+}
+.SingleConLeft:hover p{
+    visibility: visible;
+    opacity: 1;
+}
+.SingleConLeft:hover i{
+    background: #fff;
+    color: #e085c9;
+}
+.ContactForm{
+    width: 100%;
+    height: 100%;
+}
+.InputGroup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.InputFast{
+    background: #47494a none repeat scroll 0 0;
+    border: 0 none;
+    height: auto;
+    opacity: 0.7;
+    padding: 16px 0 15px 52px;
+    width: 100%;
+    border-radius: 10px;
+}
+.InputMsg{
+    height: 130px;
+    resize: none;
+}
+.InputGroup i{
+    background: #5f6164 none repeat scroll 0 0;
+    font-size: 20px;
+    left: 0;
+    padding: 14px 12px 17px;
+    position: absolute;
+    top: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.InputGFast i{
+    padding: 14px 14px 17px;
+}
+.InputMR15{
+    margin-top: 15px;
+}
+.InputGroupMes{
+    margin-top: 15px;
+}
+.InputGroupMes i{
+    padding: 53px 12px 57px;
+}
+.FormBtn{
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #b1acae;
+    display: block;
+    padding: 14px 0;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 600;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    border-radius: 10px;
+}
+.FormBtn:hover{
+    background: #fff;
+    opacity: .7;
+    color: #e085c9;
+}
+.ConForm{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.ConForm p{
+    padding: 10px 0 26px;
+}
+.ConForm::after{
+    display: none;
+}
+.social{
+    height: 100%;
+    padding: 81px 0 78px;
+    width: 100%;
+}
+.social h2{
+    font-size: 18px;
+    padding-bottom: 21px;
+    text-transform: uppercase;
+}
+.CMs{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: #555555;
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+.CMs:hover{
+    color: #fff;
+    transform: rotate(360deg);
+}
+.fac:hover{
+    background: #4867AA;
+}
+.twi:hover{
+    background: #1CB7EB;
+}
+.git:hover{
+    background: #000;
+}
+.cod:hover{
+    background: #000;
+}
+.link:hover{
+    background: #1686B0;
+}
+.drib:hover{
+    background: #E74D89;
+}
+.belan:hover{
+    background: #226BD2;
+}
+.CMs i{
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 32px;
+    width: 100%;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+/*==========================
+/ContactSec Section End here
+=============================*/
+
+/*==========================
+/MapSec Section Start here
+=============================*/
+.MapSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+#map{
+    width: 100%;
+    height: 400px;
+}
+/*==========================
+/MapSec Section End here
+=============================*/
+
+
+
+/*
+contacat page for contact form
+*/
+.contactInf {
+    background: #f1f1f1 none repeat scroll 0 0;
+    height: 200px;
+    margin: 167px auto auto;
+    width: 300px;
+}
+.contactInf h2 {
+    color: #e085c9;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.contactInf p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+}
+.contactInf a{
+    font-size: 12px;
+    font-weight: 700;
+    color: #1EBBA2;
+    text-align: center;
+    text-transform: capitalize;
+    transition:all ease 500ms;
+    -o-transition:all ease 500ms;
+    -moz-transition:all ease 500ms;
+    -webkit-transition:all ease 500ms;
+    -ms-transition:all ease 500ms;
+}
+.contactInf a:hover{
+    color: #F4686C;
+}

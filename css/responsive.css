@@ -1,0 +1,583 @@
+@media (min-width:320px) and (max-width:480px){
+    .mobileMenu{
+        border-radius: 2px;
+        cursor: pointer;
+        height: 30px;
+        left: auto;
+        line-height: 4px;
+        padding: 2px 4px 0;
+        position: absolute;
+        right: 14px;
+        top: -45px;
+        transition: all 400ms ease-in-out 0s;
+        width: 40px;
+    }
+    .headerlogo {
+        margin: 11px 0 11px;
+    }
+    .mobileMenu span{
+        background: #E085C9;
+        display: inline-block;
+        height: 3px;
+        transition: all 400ms ease-in-out 0s;
+        width: 100%;
+    }
+
+    .main-menu{
+        width: 100%;
+        display: none;
+    }
+    .main-menu ul {
+        background: #333 none repeat scroll 0 0;
+
+    }
+    .main-menu ul li {
+        list-style: outside none none;
+        padding: 13px 0;
+        position: relative;
+        text-align: center;
+        display: block;
+        margin-right: 0;
+    }
+    .main-menu ul li a {
+        color: #fff;
+
+    }
+    .main-menu ul li.active a{
+        color: #e085c9;
+    }
+    .myContent h2::before {
+        display: none;
+    }
+    .main-menu ul li::before {
+        background: none;
+    }
+    .headerMenu {
+        z-index: 9999;
+    }
+    .cvBTN a {
+        margin-right: 11px;
+        padding: 10px 19px;
+    }
+    .myContent h2 {
+        color: #fff;
+        font-family: "Raleway",sans-serif;
+        font-size: 2.3rem;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        margin-bottom: 26px;
+        margin-top: 58px;
+        position: relative;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .homeContent h1 {
+        color: #fff;
+        font-size: 31px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .myContent h4 {
+        text-align: center;
+        line-height: 26px;
+    }
+    .myContent p {
+        margin-right: 0;
+        text-align: center;
+    }
+    .folioNav ul li {
+        background: transparent none repeat scroll 0 0;
+        border: thin solid #e085c9;
+        cursor: pointer;
+        font-family: "Open Sans",sans-serif;
+        font-size: 16px;
+        height: 42px;
+        line-height: 24px;
+        margin: 0 auto 8px;
+        padding: 7px 17px;
+        text-transform: capitalize;
+        width: 42%;
+    }
+
+    .tooltip{
+        display: none;
+    }
+    .tooltip-inner{
+        display: none;
+    }
+    .tooltip.top .tooltip-arrow{
+        display: none;
+    }
+    .SingleWhCan p {
+        font-size: 17px;
+        font-weight: 300;
+        margin-bottom: 12px;
+    }
+    .contentOne {
+        width: 100%;
+    }
+    .Icon {
+        display: none;
+    }
+    .contentOne::after {
+        display: none
+    }
+    .Common h2 {
+        font-size: 20px;
+    }
+    .contentOne h2 {
+        font-size: 18px;
+    }
+    .contentOne p {
+        font-size: 14px;
+    }
+    .ExPartTwoRight.ConForm > h2 {
+        font-size: 20px;
+    }
+    .SingleConLeft h2 {
+        font-size: 16px;
+    }
+    .SingleFact h2 {
+        font-size: 40px;
+    }
+    .SkillCon h2 {
+        font-size: 20px;
+    }
+
+    .Common.stytle h2 {
+        color: #fff;
+        margin-bottom: 45px;
+        margin-top: 24px;
+        position: relative;
+    }
+    .Common.stytle h2:after{
+        content: '';
+        width: 74px;
+        height: 2px;
+        background: #E085C9;
+        position: absolute;
+        left: 0;
+        top: 30px;
+        right: 0;
+        margin: 0 auto;
+    }
+    .AboutSec{
+        padding: 40px 0;
+    }
+    .AboutImg{
+        width: 50%;
+        height: 50%;
+    }
+    .CommonContent {
+        padding: 18px 0 0;
+    }
+    .TabsMenu li a{
+        font-size: 13px;
+    }
+    .TabPanelTwo p span{
+        display: none;
+    }
+    .HairCon h2{
+        font-size: 17px;
+    }
+    .HairCon a{
+        font-size: 11px;
+    }
+    .HowDoImg{
+        float: right;
+        padding: 75px 0;
+        width: 50%;
+        padding: 5px 0;
+    }
+    .SingleHowDo i {
+        font-size: 23px;
+    }
+    .SingleHowDo h2 {
+        font-size: 15px;
+        padding: 5px 0 7px;
+    }
+    .SingleHowDo p {
+        font-size: 13px;
+        font-weight: 300;
+        padding: 11px 0 0;
+    }
+    .SingleHowDo {
+        float: left;
+        height: 100%;
+        width: 50%;
+        padding: 10px 0;
+    }
+    .SingleFact{
+        padding-top: 45px;
+    }
+    .factComm p{
+        padding-bottom: 0;
+    }
+    .SingleWhCan{
+        padding: 13px 0;
+    }
+    .WhatCanSec{
+        padding-bottom: 50px;
+    }
+    .serviceComm h2{
+        font-size: 20px;
+    }
+    .serviceComm p{
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    .MyServiceSec{
+        padding-bottom: 70px;
+    }
+    .ExPPartOne{
+        display: none;
+    }
+    .factComm h2{
+        font-size: 18px;
+    }
+    .singleSkill{
+        padding: 45px 0 0;
+    }
+    .MyworkComm{
+        padding: 40px 0 0;
+    }
+    .MyworkComm h2{
+        font-size: 20px;
+    }
+    .MyworkComm p{
+        padding-bottom: 20px;
+    }
+    .MixMenu ul li{
+        margin: 3px 0 0;
+    }
+
+    .SkillSec {
+        padding-bottom: 40px;
+    }
+    .FunfactSec {
+        padding-bottom: 45px;
+    }
+    .factComm{
+        padding: 30px 0 0;
+    }
+    .contactComm p{
+        padding-bottom: 25px;
+    }
+    .ExPartTwoRight.ConForm {
+        margin-top: 25px;
+    }
+    .social{
+        padding: 40px 0 45px;
+    }
+    .ReviewSlider {
+        padding: 35px 0 0px;
+    }
+    .ReviewSlider p{
+        padding: 0 0 9px;
+    }
+}
+@media (min-width:360px) and (max-width:640px){
+    .mobileMenu{
+        border-radius: 2px;
+        cursor: pointer;
+        height: 30px;
+        left: auto;
+        line-height: 4px;
+        padding: 2px 4px 0;
+        position: absolute;
+        right: 14px;
+        top: -45px;
+        transition: all 400ms ease-in-out 0s;
+        width: 40px;
+    }
+    .headerlogo {
+        margin: 11px 0 11px;
+    }
+    .main-menu ul {
+        background: #333 none repeat scroll 0 0;
+
+    }
+    .main-menu ul li a {
+        color: #fff;
+
+    }
+    .headerMenu {
+        z-index: 9999;
+    }
+    .main-menu ul li.active a{
+        color: #e085c9;
+    }
+    .mobileMenu span{
+        background: #E085C9;
+        display: inline-block;
+        height: 3px;
+        transition: all 400ms ease-in-out 0s;
+        width: 100%;
+    }
+
+    .main-menu{
+        width: 100%;
+        display: none;
+    }
+    .main-menu ul li {
+        list-style: outside none none;
+        padding: 13px 0;
+        position: relative;
+        text-align: center;
+        display: block;
+        margin-right: 0;
+    }
+
+    .main-menu ul li::before {
+        display: none;
+    }
+
+
+
+    .mainMenu{
+        width: 100%;
+        display: none !important;
+    }
+    .MainMenu ul {
+        display: none;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 1px;
+    }
+    .MainMenu ul li {
+        background: #363534 none repeat scroll 0 0;
+        cursor: pointer;
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    .MainMenu ul li a{
+        display: block;
+    }
+    .MainHeaderContent h2{
+        font-size: 35px;
+        color: #CC6699;
+    }
+    .scrol{
+        padding: 50px 0 48px;
+    }
+    .CommonContent {
+        padding: 32px 0 0;
+    }
+    .AboutTab{
+        padding-top: 40px;
+    }
+    .AboutSec{
+        padding: 45px 0;
+    }
+    .Info{
+        padding-top: 35px;
+    }
+    .HowDoImg{
+        float: right;
+        padding: 75px 0;
+        width: 50%;
+    }
+    .SingleHowDo {
+        float: left;
+        height: 100%;
+        width: 50%;
+    }
+    .SingleFact{
+        width: 50%;
+        float: left;
+    }
+    .SingleWhCan {
+        float: left;
+        height: 100%;
+        padding: 20px 0;
+        width: 50%;
+    }
+    .whatComm p{
+        padding-bottom: 15px;
+    }
+    .experComm{
+        padding-top: 45px;
+    }
+    .experComm p{
+        padding-bottom: 20px;
+    }
+    .ExPPartOne{
+        display: none;
+        width: 43.1%;
+    }
+    .singleSkill{
+        float: left;
+        padding: 30px 0;
+        width: 100%;
+    }
+    .skillComm p{
+        padding-bottom: 5px;
+    }
+    .SkillSec{
+        padding-bottom: 40px;
+    }
+    .MixPone{
+        float: left;
+        height: auto;
+        overflow: hidden;
+        width: 50%;
+    }
+    .WhatCanSec{
+        padding-bottom: 45px;
+    }
+    .ClientImg{
+        width: 40%;
+        float: left;
+        margin-left: 28px;
+        margin-top: 28px;
+    }
+    .ClientComm p{
+        padding-bottom: 15px;
+    }
+    .ExPartTwoRight{
+        padding-bottom: 23px;
+        padding-top: 25px;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .main-menu ul li {
+        margin-right: 15px;
+    }
+
+    .folioNav ul li {
+        margin-top: 28px;
+    }
+    .mainMixItem.mainMixItem1 {
+        margin-bottom: 22px;
+    }
+    .MainHeaderContent h2{
+        font-size: 50px;
+    }
+    .CommonContent {
+        padding: 35px 0 0;
+    }
+    .HowDoImg {
+        float: left;
+        height: 100%;
+        width: 50%;
+        padding: 14px 0;
+    }
+    .SingleHowDo {
+        float: left;
+        height: 100%;
+        width: 50%;
+        padding: 14px 0;
+    }
+    .SingleHowDo h2{
+        font-size: 20px;
+    }
+    .SingleHowDo p {
+        font-size: 14px;
+        font-weight: 300;
+        padding-top: 5px;
+    }
+    .Pad10{
+        padding-left: 20px;
+    }
+    .SingleFact{
+        width: 100%;
+        float: left;
+        padding: 45px 0 0;
+    }
+    .SingleFact h2 {
+        font-size: 50px;
+    }
+    .factComm p{
+        padding-bottom: 0;
+    }
+    .SingleWhCan{
+        width: 50%;
+        float: left;
+        padding: 40px 0 0;
+    }
+    .whatComm p{
+        padding-bottom: 0;
+    }
+    .serviceComm  p{
+        padding-bottom: 30px;
+    }
+    .ExPPartOne{
+        display: none;
+    }
+    .singleSkill{
+        float: left;
+        width: 100%;
+        padding: 60px 0 0;
+    }
+    .ClientImg{
+        float: left;
+        margin-left: 15px;
+        width: 45%;
+        margin-top: 40px;
+    }
+    .ExPartTwoRight{
+        margin: 20px 0 10px;
+    }
+    .SingleConLeft{
+        width: 100%;
+
+    }
+    .Xone{
+        position: relative;
+        padding: 0;
+    }
+
+    .Xone::before {
+        background: #F5F5F5 none repeat scroll 0 0;
+        border-radius: 2px;
+        content: "";
+        height: 100%;
+        left: 50%;
+        margin-left: -2px;
+        position: absolute;
+        top: 0;
+        width: 4px;
+    }
+    .contactComm p{
+        padding-bottom: 40px;
+    }
+}
+@media (min-width:800px) and (max-width:979px){
+    .mobileMenu{
+        border: 1px solid #fefefe;
+        cursor: pointer;
+        height: 31px;
+        line-height: 5px;
+        padding: 0 4px;
+        position: absolute;
+        right: 25px;
+        top: -55px;
+        width: 50px;
+    }
+    .mobileMenu span{
+        height: 1px;
+        width: 100%;
+        display: inline-block;
+        background: #fff;
+    }
+    .mainMenu{
+        width: 100%;
+        display: none !important;
+    }
+    .MainMenu ul {
+        display: none;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 1px;
+    }
+    .MainMenu ul li {
+        background: #363534 none repeat scroll 0 0;
+        cursor: pointer;
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+}
