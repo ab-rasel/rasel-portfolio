@@ -828,7 +828,7 @@
 .SingleWhCan a{
     width: 100px;
     height: 100px;
-    background: #f2f2f2;
+    background: #2f4e4d;
     display: block;
     border-radius: 50%;
     margin: 0 auto;
@@ -853,7 +853,7 @@
     transition: .8s;
 }
 .SingleWhCan i{
-    color: #e085c9;
+    color: #fff;
     font-size: 45px;
     margin-top: 25px;
     transition: .6s;
