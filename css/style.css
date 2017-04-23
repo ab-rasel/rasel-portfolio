@@ -130,7 +130,7 @@
     margin-right: 19px;
     padding: 13px 54px;
     text-transform: uppercase;
-    border-radius: 2px;
+    border-radius: 4px;
     transition:all ease 500ms;
     -o-transition:all ease 500ms;
     -moz-transition:all ease 500ms;
@@ -1098,7 +1098,6 @@
 }
 .CMs:hover{
     color: #fff;
-    transform: rotate(360deg);
 }
 .fac:hover{
     background: #4867AA;
